@@ -18,6 +18,12 @@ we will compare below methods:
 <li>Neural Network</li>   
 </ol>
 
+### Results
+- comparison on training dataset:
+![]()
+- comparison on testing dataset
+- comparison on real task
+
 ### Liscence
 
 This research is one part of **Smooth Georeferenced Tracking from a Moving Uncalibrated Monocular Camera**. If you use below codes, please cite
