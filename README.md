@@ -1,10 +1,8 @@
 ## Compare-Regression-methods-for-Coordinator-Transformation-Learning
 
 ### Background
-<ol>
-<li> Given camera with unknown parameter, it is impossible to use traditional camera calibration to connstruct coordinator transoformation matrix.</li>
-<li> Single camera source, tradictional depth estimation methods depending on multiple sources of imaging cannot work. </li>
-</ol>
+- Given camera with unknown parameter, it is impossible to use traditional camera calibration to connstruct coordinator transoformation matrix.
+- Single camera source, tradictional depth estimation methods depending on multiple sources of imaging cannot work. 
     
 ### Goal
 Learn coordinator transformation function between image coordinator and world coordinator.
@@ -12,17 +10,15 @@ Learn coordinator transformation function between image coordinator and world co
 We observed underlying quadratic relationship between nomallized image coordinates and nomallized GPS distance between camera and object.
 ### Methods
 we will compare below methods:
-<ol>
-<li>Gaussian Process Regression</li>
-<li>Kernel Regression with Quadratic Kernel</li>
-<li>Neural Network</li>   
-</ol>
+- Gaussian Process Regression (**GPR**)
+- Kernel Regression with Quadratic Kernel (**Qua**)
+- Neural Network (**NN**)
 
 ### Results
-- comparison on training dataset:
-![]()
-- comparison on testing dataset
-- comparison on real task
+- comparison on training dataset:<br>
+![1](Figures/Compar_coordinate_Transform_train.png)
+- comparison on testing dataset: <br>
+![2](Figures/Compar_coordinate_Transform_test.png)
 
 ### Liscence
 
